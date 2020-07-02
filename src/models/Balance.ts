@@ -1,17 +1,15 @@
-import { uuid } from 'uuidv4';
-
-class Transaction {
+class Balance {
   income: number;
 
   outcome: number;
 
   total: number;
 
-  constructor({ income, outcome, total }: Transaction) {
+  constructor({ income, outcome, total }: Balance) {
     this.income = income;
     this.outcome = outcome;
     this.total = total;
   }
 }
 
-export default Transaction;
+export default Balance;
